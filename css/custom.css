@@ -1,0 +1,85 @@
+/* This Is A Custom Stylesheet by Smpl Sltns */
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #000033;
+	text-align: center;
+}
+
+.glyphicon {
+	color: #cdae51;
+}
+.glyphicon-pushpin, 
+.glyphicon-heart {
+	color: #0099cc;
+}
+
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+
+.btn-info {
+    background-color: #000033;
+    border-color: #0099cc;
+    color: #FFFFFF;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #0099cc;
+  border-color: #333;
+}
+.panel-default {
+    border-color: #0099cc;
+}
+.panel-default > .panel-heading {
+    background-color: #000033;
+    border-color: #0099cc;
+    color: #fff;
+}
+.breadcrumb > li + li:before {
+  content: none;
+}
+body { padding-top: 70px; }
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #000033;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+
+/* remove this style */
+.glyphicon-pushpin, 
+.glyphicon-heart {
+	color: #3F2B22;
+}
+
+/* add these styles */
+
+.glyphicon {
+	color: #0099cc;
+}
+.active .glyphicon {
+	color: #000033;
+}
